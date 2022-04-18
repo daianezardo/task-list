@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {v4 as uuidv4} from 'uuid'
-import { BrowserRouter, Route, Router } from "react-router-dom";
 
 import "./App.css";
 import { AddTask } from "./components/AddTask";
