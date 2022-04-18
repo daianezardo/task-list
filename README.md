@@ -1,6 +1,4 @@
-[![MIT License](https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-)](https://github.com/daianezardo/task-list/LICENSE)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/daiane-zardo/)
+
 
 
 <br />
