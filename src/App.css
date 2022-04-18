@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+
+.container { 
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 2px solid chartreuse;
+    padding: 30px;
+    border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.task-container { 
+    background-color: #444;
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #FFF;
+    align-items: center;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-task-container { 
+    margin: 15px 0;
+    width: 100%;
+    display: flex; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-task-input {
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    flex: 2;
+    background-color: #444;
+    color: #FFF;
+    font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.add-button {
+    background-color: chartreuse;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-task-button-container {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.task-title {
+    cursor: pointer;
+}
+
+.remove-task-button, .see-task-details-button {
+    background-color: #444;
+    border: none;
+    font-size: 18px;
+    color: chartreuse;
 }
